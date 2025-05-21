@@ -43,7 +43,7 @@ Este projeto demonstra uma arquitetura distribuída utilizando:
 - 🔁 **Socket.IO**
 - 🌐 **HTML + JS Vanilla**
 - 📦 **Axios**
-- 🖥️ **Docker** (opcional para subir o RabbitMQ)
+- 🖥️ **Docker** 
 
 ---
 
