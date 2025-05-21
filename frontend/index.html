@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tarefa</title>
+  </head>
+  <body>
+    <h1>Iniciar tarefa</h1>
+    <button onclick="startTask()">Iniciar</button>
+    <p id="status">Status: aguardando</p>
+
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <script>
+      const socket = io("http://localhost:3000");
+
+      function startTask() {
+        fetch("http://localhost:3000/start-task", { method: "POST" });
+      }
+
+      socket.on("task_done", (msg) => {
+        document.getElementById("status").innerText = "✅ Tarefa concluída: " + msg;
+      });
+    </script>
+  </body>
+</html>

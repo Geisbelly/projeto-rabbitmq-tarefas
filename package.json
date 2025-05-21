@@ -1,0 +1,17 @@
+{
+    "name": "rabbitmq-trabalho",
+    "version": "1.0.0",
+    "main": "api/index.js",
+    "type": "module",
+    "scripts": {
+        "api": "node api/index.js",
+        "worker": "node worker/index.js"
+    },
+    "dependencies": {
+        "amqplib": "^0.10.3",
+        "axios": "^1.6.7",
+        "express": "^4.18.3",
+        "rabbitmq-trabalho": "file:",
+        "socket.io": "^4.5.4"
+    }
+}
