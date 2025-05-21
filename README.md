@@ -61,7 +61,6 @@ Este projeto demonstra uma arquitetura distribuída utilizando:
 │   └── index.html         # Interface web para iniciar a tarefa
 ├── README.md              # Documentação completinha
 
-Perfeito, Geis! Vamos completar esse `README.md` com as seções que estão faltando: **instalação, como rodar o projeto, como usar**, e um encerramento bonitinho. Aqui vai a continuação pra você colar direto no final do seu arquivo:
 ```
 
 ---
